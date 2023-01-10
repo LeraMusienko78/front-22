@@ -1,3 +1,25 @@
 :root{
+
+    /* *BG */
+
     --primary-bg: pink;
+    --secondary-bg:rgb(251, 241, 243);
+
+    /* *Color-text */
+
+    --primary-color:darkorchid;
+    --secondary-color:#222222;
+    --th-color:#ffffff;
+
+    /* *F-s */
+
+    --f-s-xl: 5rem;
+    --f-s-xl: 3rem;
+    --f-s-l : 2rem;
+    --f-s-m : 1.2rem;
+    --f-s-s : .8rem;
+
+
+
 }
+
