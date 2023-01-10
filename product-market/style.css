@@ -26,7 +26,6 @@ li {
 }
 
 .logo{
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,6 +42,7 @@ li {
 .title__logo{
   margin-left: 30px;
   color:var(--primary-color);
+  text-shadow: 2px 3px 3px plum;
   font-size: 40px;
 }
 
@@ -52,6 +52,7 @@ li {
   align-items: center;
   width: 40%;
   color: var(--primary-color);
+  text-shadow: 2px 3px 3px plum;
   font-size: 24px;
 }
 
@@ -95,6 +96,7 @@ li {
 .saidebar__title{
   font-size: var(--f-s-xl);
   color: var(--primary-color);
+  text-shadow: 2px 3px 3px plum;
 }
 
 .line__saidebar{
@@ -126,5 +128,45 @@ li {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+ 
+}
+
+.img__banner{
+  width: 40rem;
+  height: 25rem;
+}
+
+.sale__banner{
+  display: flex;
+  justify-content: center;
+  font-size: var(--f-s-xl);
+  color: var(--primary-color);
+  text-shadow: 2px 3px 3px plum;
+}
+
+.products__main{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5rem;
+  margin-left: 10rem;
+  
+ 
+}
+
+.product__main{
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  background: var(--th-bg);
+  align-items: center;
+  width: 15rem;
+  border-radius: 20px;
+
+}
+
+.img-product__main{
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
 }
 
