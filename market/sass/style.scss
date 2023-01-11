@@ -174,8 +174,87 @@ header{
             }
         }
     }
+}
+
+footer{
+    background: $primary-bg-color;
+    display: flex;
+    flex-direction: column;
+
+    .block-1__footer{
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+
+        .contacts{
+            display: flex;
+            flex-direction: column;
+           
+            
+
+            .contact{
+                display: flex;
+                justify-content: space-around;
+                border: 1px solid $primary-color;
+                background: rgb(229, 167, 202);
+                margin: .5rem;
+                width: 15rem;
+                padding: 1rem;
+                border-radius: 5%;
+
+                .img-contact{
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+        }
+
+        .download-wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .dowloand{
+                display: flex;
+                justify-content: center;
+                color: $primary-color;
+                text-shadow: $primary-text-shadow;
+                font-size: $f-s-l;
+            }
 
 
+            .img__dowloand-wrapper{
+                display: flex;
+                justify-content: space-around;
+                margin: .7rem;
+
+                .img-dow{
+                    width: 8rem;
+                    height: 3rem;
+                    margin-left: 1rem;
+
+                }
+            }
+        }
+    }
+
+    .line{
+        margin-top: .4rem;
+        border: none;
+        border-bottom: 2px solid $primary-color;
+    }
+
+    .block-2__footer{
+        margin-top: .5rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+
+        .text{
+            color: $primary-color;
+            font-size: $f-s-m;
+        }
+    }
 
 
 }
